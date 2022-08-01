@@ -1,0 +1,19 @@
+{
+  "name": "my-portfolio-website",
+  "version": "1.0.0",
+  "description": "A portfolio website to showcase my projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya-lawankar/my-portfolio-website.git"
+  },
+  "author": "Aditya Lawankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditya-lawankar/my-portfolio-website/issues"
+  },
+  "homepage": "https://github.com/aditya-lawankar/my-portfolio-website#readme"
+}
