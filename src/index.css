@@ -26,3 +26,31 @@ body {
 .offcanvas-body {
   font-size: 1.3rem;
 }
+
+.intro {
+  padding-top: 10rem;
+  padding-left: 10rem;
+}
+
+.intro-text {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 0%;
+}
+
+.intro-interests {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-pic {
+  height: 200px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  padding-top: 5rem;
+}
