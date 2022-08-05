@@ -5,7 +5,9 @@ import './index.css';
 import NavBar from './NavBar';
 import Main from './Main';
 import Skills from './Skills';
+import Projects from './Projects';
 import reportWebVitals from './reportWebVitals';
+// import GitHubCards from './Projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +15,7 @@ root.render(
     <NavBar />
     <Main />
     <Skills />
+    <Projects />
   </React.StrictMode>
 );
 
