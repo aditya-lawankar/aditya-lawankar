@@ -6,6 +6,7 @@ import NavBar from './NavBar';
 import Main from './Main';
 import Skills from './Skills';
 import Projects from './Projects';
+import Contact from './Contact';
 import reportWebVitals from './reportWebVitals';
 // import GitHubCards from './Projects';
 
@@ -16,6 +17,7 @@ root.render(
     <Main />
     <Skills />
     <Projects />
+    <Contact />
   </React.StrictMode>
 );
 

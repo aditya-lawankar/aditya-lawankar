@@ -10,7 +10,7 @@ function NavBar() {
       {['sm'].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#" className="brand">
+            <Navbar.Brand href="../public/index.html" className="brand">
               Portfolio
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -30,13 +30,16 @@ function NavBar() {
               </Offcanvas.Header>
               <Offcanvas.Body className="offcanvas-body">
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1" style={{ paddingRight: '2rem' }}>
+                  <Nav.Link
+                    href="#my-projects"
+                    style={{ paddingRight: '2rem' }}
+                  >
                     Projects
                   </Nav.Link>
                   <Nav.Link href="#action2" style={{ paddingRight: '2rem' }}>
                     Resume
                   </Nav.Link>
-                  <Nav.Link href="#3">Contact</Nav.Link>
+                  <Nav.Link href="#contact-me">Contact</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

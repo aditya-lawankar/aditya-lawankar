@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #ceb8a4;
   /* background-image: url('./bg.svg'); */
-  color: rgb(60, 45, 33);
+  color: #3c2d21;
 }
 
 /* OffcanvasExample {
@@ -28,8 +28,7 @@ body {
 }
 
 .intro {
-  padding-top: 10rem;
-  padding-left: 10rem;
+  padding-top: 8rem;
 }
 
 .intro-text {
@@ -96,4 +95,85 @@ body {
 
 .skill-card-title {
   margin-bottom: 0rem;
+}
+
+.projects {
+  background-color: #8f6858;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 7.5px;
+  /* #8c9086 */
+  margin-top: 3rem;
+  padding-bottom: 1.3rem;
+}
+
+.projects > h1 {
+  text-align: center;
+  padding-top: 1.3rem;
+  color: #f5f1ea;
+  /* font-weight: 700; */
+}
+
+.project-card {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: #f5f1ea;
+  /* background-color: #f5f1ea; */
+  color: #3c2d21;
+  width: 18rem;
+}
+
+.card-footer {
+  background-color: #f5f1ea;
+  border-top: 1px solid #ceb8a4;
+}
+
+.contact {
+  background-color: #33401c;
+  color: #f5f1ea;
+  margin-top: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 7.5px;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.contact > h1 {
+  text-align: center;
+  padding-top: 1.3rem;
+}
+
+.h5-text {
+  margin-bottom: 0rem;
+}
+
+.repo-btn {
+  background-color: #f5f1ea;
+  color: #8f6858;
+  border: 1px solid #ceb8a4;
+  transition: 0.3s;
+}
+
+.repo-btn:hover {
+  background-color: #8f6858;
+  color: #f5f1ea;
+  border: 1px solid #8f6858;
+  transition: 0.3s;
+}
+
+.submit-btn {
+  background-color: #33401c;
+  color: #f5f1ea;
+  border-color: #f5f1ea;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #f5f1ea;
+  color: #33401c;
+  border-color: #f5f1ea;
+  transition: 0.3s;
 }
