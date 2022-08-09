@@ -14,44 +14,16 @@ body {
   padding-left: 0.5rem;
 }
 
-/* .offcanvas {
-  background-color: #ceb8a4;
-} */
-
 .offcanvas-title,
 .offcanvas-body {
   font-size: 1.3rem;
 }
 
-/* .intro {
-  padding-top: 8rem;
-}
-
-.intro-text {
-  font-size: 4rem;
-  font-weight: 700;
-  margin-bottom: 0%;
-}
-
-.intro-interests {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-} */
-
 .my-pic {
-  /* height: 200px;
-  width: 150px; */
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-/* .skills {
-  background-color: #f5f1ea;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
-    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-  border-radius: 7.5px;
-} */
 
 .abt-box,
 .skill-box {
@@ -64,13 +36,8 @@ body {
   padding-top: 1.3rem;
 }
 
-/* .abt-desc {
-  font-size: 1.3rem;
-} */
-
 .skill-box > h1 {
   text-align: center;
-  /* padding-top: 1rem; */
 }
 
 .skill-card-holder {
@@ -96,7 +63,6 @@ body {
   text-align: center;
   padding-top: 1.3rem;
   color: #f5f1ea;
-  /* font-weight: 700; */
 }
 
 .project-card {
@@ -105,7 +71,7 @@ body {
   margin-bottom: 1rem;
   margin-top: 1rem;
   background-color: #f5f1ea;
-  /* background-color: #f5f1ea; */
+
   color: #3c2d21;
   width: 18rem;
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
@@ -194,11 +160,9 @@ body {
     background-color: #8f6858;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
       rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-    /* border-radius: 7.5px; */
-    /* #8c9086 */
+
     margin-top: 3rem;
     padding-bottom: 1.3rem;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   }
 
   .contact {
@@ -244,10 +208,9 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
       rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     border-radius: 7.5px;
-    /* #8c9086 */
+
     margin-top: 3rem;
     padding-bottom: 1.3rem;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   }
 
   .contact {
@@ -294,10 +257,9 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
       rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     border-radius: 7.5px;
-    /* #8c9086 */
+
     margin-top: 3rem;
     padding-bottom: 1.3rem;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   }
 
   .contact {
