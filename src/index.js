@@ -8,7 +8,6 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
 import reportWebVitals from './reportWebVitals';
-// import GitHubCards from './Projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

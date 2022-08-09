@@ -16,7 +16,7 @@ function Projects() {
         (result) => {
           console.log(4, result);
           const list = result.map((item, i) => (
-            <Card className="project-card">
+            <Card className="project-card" key={i}>
               <Card.Body>
                 <Card.Title> {item.name}</Card.Title>
                 <Card.Subtitle className="mb-2">{item.language}</Card.Subtitle>
@@ -28,9 +28,10 @@ function Projects() {
                   href={item.svn_url}
                   rel="noreferrer"
                   style={{ textDecoration: 'none' }}
-                  key={i}
                 >
-                  <Button className="repo-btn">View on GitHub</Button>
+                  <Button variant="light" className="repo-btn">
+                    View on GitHub
+                  </Button>
                 </a>
               </Card.Footer>
             </Card>
@@ -42,12 +43,11 @@ function Projects() {
         }
       );
   }, []);
+
   return (
     <Container fluid>
       <Row>
         <Col sm={{ span: 10, offset: 1 }} className="projects" id="my-projects">
-          {/* <div className="justify-content-center align-items-center d-flex flex-row"> */}
-          {/* <img src={img} alt="b1"></img> */}
           <h1>My projects</h1>
           <Row
             xs={1}
@@ -57,18 +57,6 @@ function Projects() {
           >
             {repoData}
           </Row>
-          {/* <div className="d-flex flex-row flex-wrap justify-content-center">
-            {repoData}
-          </div> */}
-
-          {/* <Masonry
-            breakpointCols={breakpointColumnsObj}
-            className="my-masonry-grid d-flex flex-row flex-wrap"
-            columnClassName="my-masonry-grid_column"
-            style={{ width: 'max-content' }}
-          >
-            {repoData}
-          </Masonry> */}
         </Col>
       </Row>
     </Container>

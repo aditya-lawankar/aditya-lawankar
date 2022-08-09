@@ -18,6 +18,7 @@ function ContactForm() {
 
     setValidated(true);
   };
+
   return (
     <Form
       method="POST"
@@ -39,13 +40,18 @@ function ContactForm() {
         <Form.Label>
           <h5 className="h5-text">Message</h5>
         </Form.Label>
-        <Form.Control as="textarea" rows={3} required />
+        <Form.Control
+          as="textarea"
+          rows={3}
+          placeholder="Type a message here"
+          required
+        />
         <Form.Control.Feedback type="invalid">
           Please enter a message.
         </Form.Control.Feedback>
       </Form.Group>
       <Form.Group className="justify-content-center d-flex">
-        <Button className="submit-btn" type="submit">
+        <Button variant="light" className="submit-btn" type="submit">
           <h5 className="h5-text">Submit</h5>
         </Button>
       </Form.Group>

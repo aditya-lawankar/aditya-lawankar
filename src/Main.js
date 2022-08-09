@@ -8,14 +8,16 @@ import linkedin from './images/linkedin.svg';
 
 function Main() {
   return (
-    <Container fluid id="home">
+    <Container fluid>
       <Row style={{ marginBottom: '2rem' }}>
         <Col sm={6}>
-          <Row sm={3}>
-            <Col sm={{ span: 9, offset: 3 }}>
+          <Row>
+            <Col sm={{ span: 9, offset: 3 }} xs={{ span: 8, offset: 2 }}>
               <div className="intro">
-                <h1 className="intro-text">Hi, I'm</h1>
-                <h1 className="intro-text">Aditya Lawankar.</h1>
+                <div className="intro-mid">
+                  <h1 className="intro-text">Hi, I'm</h1>
+                  <h1 className="intro-text">Aditya Lawankar.</h1>
+                </div>
                 <p className="intro-interests">
                   Full Stack Developer | ML Enthusiast | Student
                 </p>
@@ -33,7 +35,6 @@ function Main() {
               </div>
             </Col>
           </Row>
-          {/* <div>Full Stack Developer | Machine Learning | Student</div> */}
         </Col>
         <Col sm={6}>
           <img className="my-pic img-fluid" src={img} alt="Aditya Lawankar" />
