@@ -10,7 +10,10 @@ function NavBar() {
       {['sm'].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="../public/index.html" className="brand">
+            <Navbar.Brand
+              href="https://aditya-lawankar.github.io"
+              className="brand"
+            >
               Portfolio
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
