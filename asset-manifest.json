@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.899e159e.css",
-    "main.js": "/static/js/main.3f56badf.js",
-    "static/js/787.93455dee.chunk.js": "/static/js/787.93455dee.chunk.js",
+    "main.js": "/static/js/main.669de219.js",
+    "static/js/787.7d43a89b.chunk.js": "/static/js/787.7d43a89b.chunk.js",
     "static/media/ADITYA_LAWANKAR-RESUME.pdf": "/static/media/ADITYA_LAWANKAR-RESUME.941823ae24ea1d516960.pdf",
     "static/media/profile_pic_holder.png": "/static/media/profile_pic_holder.9c839752a971156d26da.png",
     "index.html": "/index.html",
-    "static/media/github.svg": "/static/media/github.0f9e37f4a8adbaa76b4459f436f987c9.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.0b7d5b79f911177a171f780cc7c648bd.svg",
+    "static/media/github.svg": "/static/media/github.24307fc05938b7de5acf3ae7e43ac016.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.dbefc9305a98b4055cd52c2a09324502.svg",
     "main.899e159e.css.map": "/static/css/main.899e159e.css.map",
-    "main.3f56badf.js.map": "/static/js/main.3f56badf.js.map",
-    "787.93455dee.chunk.js.map": "/static/js/787.93455dee.chunk.js.map"
+    "main.669de219.js.map": "/static/js/main.669de219.js.map",
+    "787.7d43a89b.chunk.js.map": "/static/js/787.7d43a89b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.899e159e.css",
-    "static/js/main.3f56badf.js"
+    "static/js/main.669de219.js"
   ]
 }
