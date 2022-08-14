@@ -31,7 +31,7 @@ function ContactForm() {
         <Form.Label>
           <h5 className="h5-text">Email address</h5>
         </Form.Label>
-        <Form.Control type="email" placeholder="name@example.com" required />
+        <Form.Control type="email" placeholder="name@email.com" required />
         <Form.Control.Feedback type="invalid">
           Please enter a valid email id.
         </Form.Control.Feedback>

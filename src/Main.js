@@ -10,9 +10,9 @@ function Main() {
   return (
     <Container fluid>
       <Row style={{ marginBottom: '2rem' }}>
-        <Col sm={6}>
+        <Col md={6}>
           <Row>
-            <Col sm={{ span: 9, offset: 3 }} xs={{ span: 8, offset: 2 }}>
+            <Col md={{ span: 9, offset: 3 }} xs={{ span: 8, offset: 2 }}>
               <div className="intro">
                 <div className="intro-mid">
                   <h1 className="intro-text">Hi, I'm</h1>
@@ -36,7 +36,7 @@ function Main() {
             </Col>
           </Row>
         </Col>
-        <Col sm={6}>
+        <Col md={6}>
           <img className="my-pic img-fluid" src={img} alt="Aditya Lawankar" />
         </Col>
       </Row>

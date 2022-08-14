@@ -14,7 +14,7 @@ function Projects() {
       .then((res) => res.json())
       .then(
         (result) => {
-          console.log(4, result);
+          // console.log(4, result);
           const list = result.map((item, i) => (
             <Card className="project-card" key={i}>
               <Card.Body>
