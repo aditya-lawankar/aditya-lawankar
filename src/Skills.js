@@ -23,13 +23,15 @@ function Skills() {
             <Col xs={{ span: 10, offset: 1 }} className="abt-box">
               <h1>About me</h1>
               <p className="abt-desc">
-                I'm a Full Stack Developer currently studying in PES University
-                Bangalore, India. "Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur.
+                I am a computer science student currently studying at PES
+                UNIVERSITY Bangalore, India. I am driven by a strong interest in
+                technology, especially in the fields of web development and
+                cloud computing. With experience in machine learning and data
+                analytics, I am constantly exploring new ways to leverage
+                technology to make a positive impact on society. I believe that
+                technology can be a powerful tool for social change, and I am
+                excited to be a part of a community that is working towards this
+                goal.
               </p>
             </Col>
           </Row>
@@ -55,6 +57,7 @@ function Skills() {
                 <SkillCard skillName="Docker" />
                 <SkillCard skillName="Kubernetes" />
                 <SkillCard skillName="Hadoop" />
+                <SkillCard skillName="AWS" />
                 <SkillCard skillName="Figma" />
               </div>
             </Col>
