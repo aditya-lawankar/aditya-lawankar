@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Pdf from './pdf/ADITYA_LAWANKAR-RESUME.pdf';
+import Pdf from './pdf/AdityaLawankar-RESUME.pdf';
 import './index.css';
 
 function NavBar() {

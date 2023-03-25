@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './index.css';
-import img from './images/profile_pic_holder.png';
+import img from './images/profilepic.png';
 import github from './images/github.svg';
 import linkedin from './images/linkedin.svg';
 
@@ -19,7 +19,7 @@ function Main() {
                   <h1 className="intro-text">Aditya Lawankar.</h1>
                 </div>
                 <p className="intro-interests">
-                  Full Stack Developer | ML Enthusiast | Student
+                  Full Stack | Cloud | ML |Student
                 </p>
                 <p>
                   <a

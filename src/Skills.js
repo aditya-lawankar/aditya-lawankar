@@ -40,6 +40,7 @@ function Skills() {
                 <SkillCard skillName="Python" />
                 <SkillCard skillName="C++" />
                 <SkillCard skillName="C" />
+                <SkillCard skillName="SQL" />
                 <SkillCard skillName="HTML" />
                 <SkillCard skillName="CSS" />
                 <SkillCard skillName="Javascript" />
@@ -52,6 +53,9 @@ function Skills() {
                 <SkillCard skillName="Git" />
                 <SkillCard skillName="GitHub" />
                 <SkillCard skillName="Docker" />
+                <SkillCard skillName="Kubernetes" />
+                <SkillCard skillName="Hadoop" />
+                <SkillCard skillName="Figma" />
               </div>
             </Col>
           </Row>
