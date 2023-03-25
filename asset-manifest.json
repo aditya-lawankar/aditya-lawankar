@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.4f672744.css",
-    "main.js": "/static/js/main.c94e688a.js",
+    "main.js": "/static/js/main.5adcfdc4.js",
     "static/media/AdityaLawankar-RESUME.pdf": "/static/media/AdityaLawankar-RESUME.bf5e817b78c90ef63115.pdf",
     "static/media/profilepic.png": "/static/media/profilepic.c6484f8a7f03c941a5d7.png",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.24307fc05938b7de5acf3ae7e43ac016.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.dbefc9305a98b4055cd52c2a09324502.svg",
     "main.4f672744.css.map": "/static/css/main.4f672744.css.map",
-    "main.c94e688a.js.map": "/static/js/main.c94e688a.js.map"
+    "main.5adcfdc4.js.map": "/static/js/main.5adcfdc4.js.map"
   },
   "entrypoints": [
     "static/css/main.4f672744.css",
-    "static/js/main.c94e688a.js"
+    "static/js/main.5adcfdc4.js"
   ]
 }
