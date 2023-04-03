@@ -19,7 +19,7 @@ function Main() {
                   <h1 className="intro-text">Aditya Lawankar.</h1>
                 </div>
                 <p className="intro-interests">
-                  Full Stack | Cloud | ML |Student
+                  Full Stack | Cloud | ML | Student
                 </p>
                 <p>
                   <a
